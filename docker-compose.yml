@@ -1,6 +1,6 @@
 version: '3'
 services:
   nginx:
-    image: nonoka521521/docker-cicd:202406130934
-    ports: 
+    image: nonoka521521/docker-cicd:202406131744
+    ports:
       - "8080:80"
