@@ -13,6 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      -name: Build and start services
-       run: docker-compose up -d
+      - name: Build and start services
+        run: docker-compose up -d
        
